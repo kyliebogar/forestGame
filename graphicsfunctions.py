@@ -7,9 +7,9 @@
 
 
 # fairy
-
+path = "images/"
 def fairygraphic():
-    a = open("fairies.txt")
+    a = open(path + "fairies.txt")
     fairy = a.read()
     print(fairy)
     a.close()
@@ -18,7 +18,7 @@ def fairygraphic():
 # trees (scary path)
 
 def treesgraphic():
-    b = open("EnchantedForest.txt")
+    b = open(path + "EnchantedForest.txt")
     forest = b.read()
     print(forest)
     b.close()
@@ -27,7 +27,7 @@ def treesgraphic():
 # flowers (cutesy path)
 
 def fieldgraphic():
-    c = open("Flowerpath.txt")
+    c = open(path + "Flowerpath.txt")
     field = c.read()
     print(field)
     c.close()
@@ -36,7 +36,7 @@ def fieldgraphic():
 # flower (picked)
 
 def flowergraphic():
-    d = open("flower.txt")
+    d = open(path + "flower.txt")
     flower = d.read()
     print(flower)
     d.close()
@@ -45,7 +45,7 @@ def flowergraphic():
 # yodel man
 
 def yodelergraphic():
-    e = open("YodelNPC.txt")
+    e = open(path + "YodelNPC.txt")
     yodeler = e.read()
     print(yodeler)
     e.close()
@@ -54,7 +54,7 @@ def yodelergraphic():
 # sword and perfume choice
 
 def itemsgraphic():
-    f = open("PerfumeSword.txt")
+    f = open(path + "PerfumeSword.txt")
     items = f.read()
     print(items)
     f.close()
@@ -63,7 +63,7 @@ def itemsgraphic():
 # dragon
 
 def dragongraphic():
-    g = open("GloomkinsDragon.txt")
+    g = open(path + "GloomkinsDragon.txt")
     dragon = g.read()
     print(dragon)
     g.close()
@@ -73,7 +73,7 @@ def dragongraphic():
 # goats
 
 def goatsgraphic():
-    h = open("GoatArmy.txt")
+    h = open(path + "GoatArmy.txt")
     goats = h.read()
     print(goats)
     h.close()
@@ -82,7 +82,7 @@ def goatsgraphic():
 # bear
 
 def beargraphic():
-    i = open("bear.txt")
+    i = open(path + "bear.txt")
     bear = i.read()
     print(bear)
     i.close()
@@ -91,7 +91,7 @@ def beargraphic():
 # mountain village
 
 def mtnvillagegraphic():
-    j = open("village.txt")
+    j = open(path + "village.txt")
     village = j.read()
     print(village)
     j.close()
@@ -109,7 +109,7 @@ def egggoblingraphic():
 # base of mtn
 
 def mtnbasegraphic():
-    l = open("BaseMountain.txt")
+    l = open(path + "BaseMountain.txt")
     mtnbase = l.read()
     print(mtnbase)
     l.close()
@@ -118,7 +118,7 @@ def mtnbasegraphic():
 # game over
 
 def gameovergraphic():
-    m = open("GameOver.txt")
+    m = open(path + "GameOver.txt")
     gameover = m.read()
     print(gameover)
     m.close()
@@ -126,7 +126,7 @@ def gameovergraphic():
 # participation trophy
 
 def trophygraphic():
-    n = open("TROPHY.txt")
+    n = open(path + "TROPHY.txt")
     trophy = n.read()
     print(trophy)
     n.close()
